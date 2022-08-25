@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework-2</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+  <main>
+    <section id="section">
+      <div class="container">
+        <h1 class="h3 text-center my-3 text-success">Movies</h1>
+
+        <ul class="js-movies-list list-unstyled d-flex justify-content-center flex-wrap justify-content-sm-between">
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <template id="template-element">
+    <li class="card mb-3  py-2 card-item">
+      <img class="card-img-top card-img" src="" alt="" width="250" height="200">
+      <div class="card-body">
+        <h5 class="card-title text-success"></h5>
+        <p class="card-lantext m-0 fw-bold"></p>
+        <p class="card-text m-0 fw-bold"></p>
+        <p class="card-subtext m-0 fw-bold "></p>
+        <p class="card-runtext m-0 fw-bold"></p>
+        <p class="card-infotext m-0"></p>
+      </div>
+    </li>
+  </template>
+  
+  <script src="./js/movies.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
